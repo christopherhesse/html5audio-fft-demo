@@ -1,4 +1,3 @@
-# TODO:
 # TODO: freq wrapping
 #     first - look at freqs of spikes - see if they are integer multiples
 #     where do harmonics occur? fq, 2*fq, 3*fq?  notes occur at fq, 2*fq, 4*fq
@@ -187,7 +186,7 @@ setup_keyboard = (analyser) ->
 main = ->
     window.audio = new webkitAudioContext()
 
-    await load_audio("/glasswindow.wav", defer response)
+    await load_audio("glasswindow.wav", defer response)
 
     window.source = audio.createBufferSource()
     source.buffer = audio.createBuffer(response, false)
