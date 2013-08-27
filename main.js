@@ -277,7 +277,7 @@
         filename: "main.iced",
         funcname: "main"
       });
-      load_audio("glasswindow.wav", __iced_deferrals.defer({
+      load_audio("glasswindow.mp3", __iced_deferrals.defer({
         assign_fn: (function() {
           return function() {
             return response = arguments[0];

@@ -186,7 +186,7 @@ setup_keyboard = (analyser) ->
 main = ->
     window.audio = new webkitAudioContext()
 
-    await load_audio("glasswindow.wav", defer response)
+    await load_audio("glasswindow.mp3", defer response)
 
     window.source = audio.createBufferSource()
     source.buffer = audio.createBuffer(response, false)
